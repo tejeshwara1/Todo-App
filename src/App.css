@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,900&display=swap');
+body{
+  background-image: linear-gradient(to bottom right,orange, rgba(255,0,0,1));
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#addbtn{
+  margin-left: 30px;
+}
+.form{
+  margin-top: 50px;
+}
+.title{
+  font-family: 'Grandstander', cursive;
+  margin-top: 30px;
+  color: white;
+}
+.boxlist{
+  position: relative;
+  left: 28%;
+  max-width: 40%;
+  margin-top: 50px;
+  border-style: solid;
+  border-top-color: orange;
+  border-left-color: orange;
+  border-right-color:rgba(255,0,0,1);
+  border-bottom-color: rgba(255,0,0,1);
+  border-width: 5px;
+  padding: 5px 5px;
+}
+.list{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.whattask{
+  font-weight: bold;
+  width: 85.4%;
+  word-wrap: break-word;
+  border: 1px solid white;
+  padding-left: 10px;
+  
+}
+.icons{
+  border:1px solid white;
+}
+.notask{
+  
+  margin-top: 50px;
+  color: white;
+  font-family: 'Grandstander', cursive;
+}
